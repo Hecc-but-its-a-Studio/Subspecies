@@ -1,0 +1,36 @@
+{
+    "name":"Precise Steps",
+    "description": "Living in the cold you have got accustomed to being steady on your feet on dangerous terrain.",
+    "condition": {
+        "type": "origins:biome",
+        "biome": "snowy_plains",
+        "biomes": [
+            "snowy_plains",
+            "ice_spikes",
+            "snowy_taiga",
+            "snowy_slopes",
+            "frozen_peaks",
+            "jagged_peaks",
+            "stony_peaks",
+            "frozen_river",
+            "snowy_beach",
+            "frozen_ocean",
+            "deep_frozen_ocean"
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "duration": 100,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": true,
+            "show_icon": false
+        }
+    ]
+}

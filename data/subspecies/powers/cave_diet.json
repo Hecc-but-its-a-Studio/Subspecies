@@ -1,0 +1,26 @@
+{
+    "name": "Cavern Diet",
+    "description": "Increase the food and saturation gained from mushroom soup and glow berries.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "subspecies:cavern_diet"
+                }
+            }
+        ]
+    },
+    "food_modifier": {
+        "operation": "addition",
+        "value": 3
+    },
+    "saturation_modifier": {
+        "operation": "addition",
+        "value": 5
+    },
+    "prevent_effects": true,
+    "always_edible":false
+  }

@@ -1,0 +1,44 @@
+{
+    "name":"Snow Camouflage",
+    "description": "Your skin is pale allowing mobs to be none the wiser of your presence when blending into snow.",
+    "loading_priority": 0,
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "effect":"minecraft:invisibility",
+        "show_particles": false,
+        "show_icon" : false
+    },
+    "condition": {
+        "type":"origins:or",
+        "conditions": [
+            {
+        "type": "origins:biome",
+        "biomes": [
+            "snowy_plains",
+            "ice_spikes",
+            "snowy_taiga",
+            "snowy_slopes",
+            "frozen_peaks",
+            "jagged_peaks",
+            "stony_peaks",
+            "frozen_river",
+            "snowy_beach",
+            "frozen_ocean",
+            "deep_frozen_ocean"
+        ]
+    },
+    {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "subspecies:snow"
+        },
+        "radius": 3,
+        "shape": "cube"
+    }        
+]
+    }
+}

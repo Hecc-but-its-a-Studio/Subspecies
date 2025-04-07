@@ -1,0 +1,10 @@
+{
+    "powers": [
+ 
+    ],
+    "icon": "minecraft:player_head",
+    "order": 0,
+    "impact": 0,
+    "name": "No Subspecies",
+    "description": "Your base origin is not altered in any way."
+}

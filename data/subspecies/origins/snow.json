@@ -1,0 +1,15 @@
+{
+    "name": "Snowborne",
+    "description": "A subspecies born and molded by the frigid landscape.",
+    "powers": [
+        "subspecies:snow_weight",
+        "subspecies:snow_feet",
+        "subspecies:snow_camouflage",
+        "subspecies:snow_lack",
+        "subspecies:snow_lack_shake",
+        "subspecies:blue_skin"
+    ],
+    "icon": "minecraft:snow_block",
+    "order":4,
+    "impact": 0
+}

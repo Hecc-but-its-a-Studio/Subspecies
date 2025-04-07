@@ -1,0 +1,24 @@
+{
+    "name": "Electrokenesis",
+    "description": "Summon lightning on everyone in a 20 block radius including yourself.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 20,
+        "include_actor": true,
+        "shape": "sphere",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:spawn_entity",
+                "entity_type": "minecraft:lightning_bolt"
+            }
+        }
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 2
+    }
+}

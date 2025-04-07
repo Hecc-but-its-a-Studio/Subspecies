@@ -1,0 +1,43 @@
+{
+    "name":"Nether Kinship",
+    "description":"Inhabitents of the nether are all your allies and will not attack you (expect those bastard Piglens).",
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:execute_command",
+             "command":"team add nether_sub"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join nether_sub @s"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join nether_sub @e[type=minecraft:wither_skeleton]"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join nether_sub @e[type=minecraft:blaze]"
+          },
+          {
+          "type":"origins:execute_command",
+          "command":"team join nether_sub @e[type=minecraft:ghast]"
+          },
+          {
+          "type":"origins:execute_command",
+          "command":"team join nether_sub @e[type=minecraft:skeleton]"
+          },
+          {
+            "type":"origins:execute_command",
+            "command":"team join nether_sub @e[type=minecraft:magma_cube]"
+            }       
+       ]
+    },
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+    "interval":20
+ }
+}

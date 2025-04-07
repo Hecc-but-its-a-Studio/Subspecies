@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "subspecies:burrow",
+        "subspecies:burrow_toggle",
+        "subspecies:eat_cactus",
+        "subspecies:cold_biomes"
+    ],
+    "icon": "minecraft:chiseled_sandstone",
+    "order": 4,
+    "impact": 0,
+    "name": "Deseterian",
+    "description": "A subspecies the thrives in the baren waste that is the desert."
+}

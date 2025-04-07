@@ -1,0 +1,41 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 20,
+    "effects": [ 
+    {
+        "effect":"minecraft:speed",
+        "amplifier": 2,
+        "show_particles": true,
+        "show_icon" : false,
+        "is_ambient" : true
+    },
+    {
+        "effect":"minecraft:strength",
+        "amplifier": 1,
+        "show_particles": true,
+        "show_icon" : false,
+        "is_ambient" : true        
+    },
+    {
+        "effect":"minecraft:resistance",
+        "amplifier": 0,
+        "show_particles": true,
+        "show_icon" : false,
+        "is_ambient" : true 
+    },
+    {
+        "effect":"minecraft:regeneration",
+        "amplifier": 0,
+        "show_particles": true,
+        "show_icon" : false,
+        "is_ambient" : true 
+    }
+],
+    "condition": {
+        "type": "origins:in_rain"
+    },
+    "name": "Child of the Storms",
+    "description": "Gain speed, strength, resistance, and regeneration when in storms."
+}

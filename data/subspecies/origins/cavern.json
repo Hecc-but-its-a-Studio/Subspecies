@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "subspecies:fortune",
+        "subspecies:cave_diet",
+        "subspecies:grey_skin",
+        "subspecies:vibration",
+        "subspecies:dark_eyes"
+    ],
+    "icon": "minecraft:deepslate",
+    "order": 4,
+    "impact": 0,
+    "name": "Dweller",
+    "description": "A subspecies accustomed to the depths of the Earth."
+}

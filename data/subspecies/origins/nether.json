@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "origins:flame_particles",
+        "subspecies:nether_lack",
+        "subspecies:nether_lack_shake",
+        "subspecies:nether_home",
+        "subspecies:lava_drinker"
+    ],
+    "icon": "minecraft:netherrack",
+    "order": 4,
+    "impact": 0,
+    "name": "Netherine",
+    "description": "A subspecies born and shapped in the fires of the Nether"
+}

@@ -1,0 +1,25 @@
+{
+    "order": 1,
+    "replace": false,
+    "allow_random":true,
+    "exclude_random":[
+        "subspecies:none"
+    ],
+    "origins": [
+        "subspecies:deepsea",
+        "subspecies:none",
+        "subspecies:nether",
+        "subspecies:end",
+        "subspecies:swamp",
+        "subspecies:cavern",
+        "subspecies:deep_dark",
+        "subspecies:snow",
+        "subspecies:desert",
+        "subspecies:flower",
+        "subspecies:village"
+    ],
+    "name": "Subpecies",
+    "missing_name": "None",
+    "missing_description": "You do not have a Subspecies selected."
+
+}

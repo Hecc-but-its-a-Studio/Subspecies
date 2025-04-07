@@ -1,0 +1,26 @@
+{
+  "name": "Surf & Turf",
+  "description": "Increase the food and saturation gained from water based meals.",
+  "type": "origins:modify_food",
+  "item_condition": {
+      "type": "origins:or",
+      "conditions": [
+          {
+              "type": "origins:ingredient",
+              "ingredient": {
+                  "tag": "subspecies:surf"
+              }
+          }
+      ]
+  },
+  "food_modifier": {
+      "operation": "addition",
+      "value": 4
+  },
+  "saturation_modifier": {
+      "operation": "addition",
+      "value": 4
+  },
+  "prevent_effects": true,
+  "always_edible":true
+}

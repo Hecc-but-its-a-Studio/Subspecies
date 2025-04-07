@@ -1,0 +1,10 @@
+{
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.tertiary_active",
+      "continuous": false
+    },
+    "retain_state": true,
+    "name":"Burrow",
+    "description":"Your able to burrow into sand blocks. You're unable to burrow into compacted sand blocks."
+  }

@@ -1,0 +1,25 @@
+{
+    "type": "origins:phasing",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:sand"
+    },
+    "render_type": "blindness",
+    "view_distance": 10,
+    "phase_down_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:on_block"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "subspecies:burrow_toggle"
+      },
+      "hidden":true
+}

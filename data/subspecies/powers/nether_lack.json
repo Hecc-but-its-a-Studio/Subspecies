@@ -1,0 +1,22 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 20,
+    "effects": [
+        {
+            "effect":"minecraft:slowness",
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon" : false,
+            "is_ambient" : true
+        }
+    ],
+    "condition": {
+    "type": "origins:dimension",
+    "dimension": "minecraft:the_nether",
+    "inverted": true
+},
+    "name": "Forged In Flames",
+    "description": "When outside the Nether, you become cold slowing your movement speed."
+}

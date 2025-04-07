@@ -1,0 +1,27 @@
+{
+    "name": "Bringer of Storms",
+    "description": "Call forth a thunderstorm.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "weather thunder"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "/tellraw @a[distance=..100,limit=0] [\"\",{\"text\":\"The Sky Darkens\",\"italic\":true,\"bold\":true,\"color\":\"dark_purple\"}]"
+            }
+        ]
+    },
+    "cooldown": 18000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 1
+    },
+        "key": {
+        "key": "key.origins.secondary_active"
+    }
+}

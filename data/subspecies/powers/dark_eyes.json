@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Dark Vision",
+    "description": "At lower light levels, grants nightvision.",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 60,
+    "effect": {
+        "effect": "minecraft:night_vision",
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon": false
+    },
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": "<=",
+        "compare_to": 0.17
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"type":"origins:model_color",
+	"red":0.4,
+	"blue":0.4,
+	"green":0.4,
+	"alpha":1,
+	"name": "Rock and Stone",
+	"description": "Your body is natrually grey"
+}

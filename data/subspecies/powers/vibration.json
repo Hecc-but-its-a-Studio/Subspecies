@@ -1,0 +1,13 @@
+{
+	"type":"origins:entity_glow",
+	"conditions":[
+        {
+		"type":"origins:sneaking"
+	},
+    {
+        "type":"origins:on_block"
+    }
+    ],
+    "name":"Seismic Activity",
+	"description": "See mobs through walls when crouching."
+}

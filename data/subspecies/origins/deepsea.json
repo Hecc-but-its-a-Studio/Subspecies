@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "subspecies:water_breathing",
+        "origins:aqua_affinity",
+        "subspecies:wet_eyes",
+        "subspecies:water_legs",
+        "subspecies:surf_turf_up"
+    ],
+    "icon": "minecraft:water_bucket",
+    "order": 4,
+    "impact": 0,
+    "name": "Amphibian",
+    "description": "A subspecies skilled in traversing the water."
+}

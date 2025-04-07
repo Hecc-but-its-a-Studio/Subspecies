@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "origins:extra_reach",
+        "origins:ender_particles",
+        "subspecies:slight_height",
+        "subspecies:teleport"
+    ],
+    "icon": "minecraft:ender_eye",
+    "order": 4,
+    "impact": 0,
+    "name": "Endirian",
+    "description": "A subspecies well atuned to the shapeless void that is the End."
+}

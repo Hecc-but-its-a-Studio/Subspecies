@@ -1,0 +1,26 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": [ 
+    {
+        "effect":"minecraft:slowness",
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon" : false
+    },
+    {
+        "effect":"minecraft:weakness",
+        "amplifier": 0,
+        "show_particles": false,
+        "show_icon" : false    
+    }
+],
+    "condition":{
+        "type": "origins:in_rain",
+        "inverted": true
+    },
+    "name": "Drought",
+    "description": "You are afflicted with slowness and weakness when outside of a storm. You also take 1.5x more damage."
+}

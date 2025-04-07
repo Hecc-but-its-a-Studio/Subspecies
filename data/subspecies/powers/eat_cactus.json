@@ -1,0 +1,47 @@
+{
+	"type": "origins:multiple",
+	"effects": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:feed",
+					"food": 8,
+					"saturation": 12.8
+				},
+				{
+					"type": "origins:consume",
+					"item": "minecraft:cactus",
+					"amount": 1
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:cactus"
+						}
+					}
+				},
+				{
+					"type": "origins:saturation",
+					"comparison": "<=",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:food",
+					"comparison": "<",
+					"compare_to": 20
+				}
+			]
+		},
+		"key": "key.use"
+	}
+}
