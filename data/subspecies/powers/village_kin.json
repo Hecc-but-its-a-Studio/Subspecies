@@ -1,0 +1,23 @@
+{
+    "name":"Indebted.",
+    "description":"Iron golems feel obligated to protect you no matter the condition.",
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:execute_command",
+             "command":"team add golem_sub"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join golem_sub @s"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join golem_sub @e[type=minecraft:iron_golem]"
+          } 
+       ]
+    },
+    "interval":20
+}

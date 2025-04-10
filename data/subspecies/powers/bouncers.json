@@ -1,0 +1,18 @@
+{
+    "name": "Big I",
+    "description": "Summon your childhood friend, Big I for 30 seconds. He'll handle whatever mobs may be hassling you.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function subspecies:village_golem"
+    },
+    "cooldown": 900,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 0
+    },
+        "key": {
+        "key": "key.origins.tertiary_active"
+    }
+}
