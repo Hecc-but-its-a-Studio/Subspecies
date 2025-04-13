@@ -16,7 +16,8 @@
         "subspecies:snow",
         "subspecies:desert",
         "subspecies:flower",
-        "subspecies:village"
+        "subspecies:village",
+        "subspecies:forest"
     ],
     "name": "Subpecies",
     "missing_name": "None",
