@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "subspecies:long_breath",
+        "subspecies:iron_tummy",
+        "subspecies:too_clean",
+        "subspecies:hagmaxxing"
+    ],
+    "icon": "minecraft:muddy_mangrove_roots",
+    "order": 4,
+    "impact": 0,
+    "name": "Swamp",
+    "description": "A subspecies familiar with the murky waters of the swamp."
+}

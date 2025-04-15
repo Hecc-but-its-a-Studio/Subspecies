@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "subspecies:hero",
+        "subspecies:bouncers",
+        "subspecies:village_kin",
+        "subspecies:village_bane"
+    ],
+    "icon": "minecraft:emerald",
+    "order": 4,
+    "impact": 0,
+    "name": "Flora",
+    "description": "A subspecies brought up in the humble village. They see you as one of their own."
+}
