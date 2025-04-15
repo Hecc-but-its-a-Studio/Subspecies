@@ -4,10 +4,11 @@
         "subspecies:tree_climb",
         "subspecies:leaf_lurk",
         "subspecies:spirit_eyes",
-        "subspecies:forest_lack"
+        "subspecies:forest_lack",
+        "subspecies:forest_toggle"
         
     ],
-    "icon": "minecraft:dark_oak",
+    "icon": "minecraft:dark_oak_log",
     "order": 4,
     "impact": 0,
     "name": "Forester",
