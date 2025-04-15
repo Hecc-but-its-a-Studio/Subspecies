@@ -10,14 +10,13 @@
         "subspecies:none",
         "subspecies:nether",
         "subspecies:end",
-        "subspecies:swamp",
         "subspecies:cavern",
         "subspecies:deep_dark",
         "subspecies:snow",
         "subspecies:desert",
-        "subspecies:flower",
-        "subspecies:village",
-        "subspecies:forest"
+        "subspecies:swamp",
+        "subspecies:flora",
+        "subspecies:village"
     ],
     "name": "Subpecies",
     "missing_name": "None",
