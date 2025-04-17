@@ -1,0 +1,10 @@
+{
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.tertiary_active",
+      "continuous": false
+    },
+    "retain_state": true,
+    "name":"Tree Climber",
+    "description":"Toggle to climb trees and leaves."
+  }

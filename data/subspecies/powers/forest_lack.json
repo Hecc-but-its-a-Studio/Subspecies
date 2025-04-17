@@ -1,0 +1,49 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:biome",
+        "condition":{
+            "type":"origins:category",
+            "inverted":true,
+            "category":"forest"
+        },
+        "biomes": [
+            "forest",
+            "flower_forest",
+            "taiga",
+            "old_growth_pine_taiga",
+            "snowy_taiga",
+            "birch_forest",
+            "old_growth_birch_forest",
+            "dark_forest",
+            "pale_garden",
+            "sparse_jungle",
+            "bamboo_jungle",
+            "warped_forest",
+            "crimson_forest"
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 10,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+            "duration": 100,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": true,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:slowness",
+            "duration": 100,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": true,
+            "show_icon": false
+        }
+    ]
+}
