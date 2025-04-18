@@ -7,7 +7,7 @@
         "subspecies:bolt_blast"
     ],
     "icon": "supplementaries:wind_vane",
-    "order": 30,
+    "order": 10,
     "impact": 3,
     "name": "Storm Caller",
     "description": "You draw your power from storms and the rain. Within them you gain increased stats. However, you are weak and feeble outside of them."

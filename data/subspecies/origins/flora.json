@@ -5,7 +5,7 @@
         "subspecies:flammable"
     ],
     "icon": "minecraft:oxeye_daisy",
-    "order": 4,
+    "order": 5,
     "impact": 0,
     "name": "Flora",
     "description": "A subspecies known to frolic in fields full of flowers, making friends with those fuzzy little fellas!"

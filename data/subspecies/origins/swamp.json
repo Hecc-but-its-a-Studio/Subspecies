@@ -6,7 +6,7 @@
         "subspecies:salt_water_allergy"
     ],
     "icon": "minecraft:muddy_mangrove_roots",
-    "order": 4,
+    "order": 9,
     "impact": 0,
     "name": "Swamp",
     "description": "A subspecies familiar with the murky waters of the swamp."

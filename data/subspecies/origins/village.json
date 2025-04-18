@@ -6,7 +6,7 @@
         "subspecies:village_bane"
     ],
     "icon": "minecraft:emerald",
-    "order": 4,
+    "order": 10,
     "impact": 0,
     "name": "Village",
     "description": "A subspecies brought up in the humble village. They see you as one of their own."

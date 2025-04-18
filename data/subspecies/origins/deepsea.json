@@ -7,7 +7,7 @@
         "subspecies:surf_turf_up"
     ],
     "icon": "minecraft:water_bucket",
-    "order": 4,
+    "order": 2,
     "impact": 0,
     "name": "Amphibian",
     "description": "A subspecies skilled in traversing the water."
