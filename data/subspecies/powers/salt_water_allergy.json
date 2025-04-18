@@ -1,0 +1,27 @@
+{
+  "name": "Salt Water Allergy",
+  "description": "Being in ocean water makes your skin burn, dealing damage over time.",
+  "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage": 2,
+    "damage_easy": 1,
+    "damage_type": "origins:hurt_by_water",
+    "protection_enchantment": "origins:water_protection",
+    "protection_effectiveness": 1.0,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0.0
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:is_ocean"
+        }
+      ]
+    }
+  }

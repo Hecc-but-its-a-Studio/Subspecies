@@ -1,13 +1,12 @@
 {
     "powers": [
-        "subspecies:hero",
-        "subspecies:bouncers",
-        "subspecies:village_kin",
-        "subspecies:village_bane"
+        "subspecies:smell_the_roses",
+        "subspecies:humblebee",
+        "subspecies:flammable"
     ],
-    "icon": "minecraft:emerald",
+    "icon": "minecraft:oxeye_daisy",
     "order": 4,
     "impact": 0,
     "name": "Flora",
-    "description": "A subspecies brought up in the humble village. They see you as one of their own."
+    "description": "A subspecies known to frolic in fields full of flowers, making friends with those fuzzy little fellas!"
 }

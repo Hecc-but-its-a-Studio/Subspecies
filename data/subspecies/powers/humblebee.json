@@ -1,0 +1,24 @@
+{
+    "name":"Humblebee",
+    "description":"You are friendly with bees! Bees are cool :)",
+    "type":"origins:action_over_time",
+    "entity_action":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:execute_command",
+             "command":"team add flora_sub"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join flora_sub @s"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"team join flora_sub @e[type=minecraft:bee]"}    
+       ]
+    },
+    "condition": {
+    "interval":20
+ }
+}

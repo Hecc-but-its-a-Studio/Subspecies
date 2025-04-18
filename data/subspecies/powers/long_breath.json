@@ -1,4 +1,6 @@
 {
+    "name": "Like a Fish!",
+    "description": "When submerged in water, gain water breathing for a short duration.",
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,
@@ -15,7 +17,5 @@
     "condition":{
         "type": "origins:submerged_in",
         "fluid": "minecraft:water"
-    },
-    "name": "Like a Fish!",
-    "description": "When submerged in water, gain water breathing for a short duration."
+    }
 }
