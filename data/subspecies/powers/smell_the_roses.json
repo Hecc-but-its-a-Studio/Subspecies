@@ -1,0 +1,25 @@
+{
+  "name":"Smell the Roses",
+  "description":"The flowers make you happy, and grant you health regeneration when surrounded by them.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 40,
+  "effect": {
+      "effect":"minecraft:regeneration",
+      "amplifier": "1",
+      "show_particles": false,
+      "show_icon" : true
+  },
+  "condition": {
+    "type": "origins:block_in_radius",
+    "radius": 5,
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:flowers"
+    },
+    "comparison": ">=",
+    "compare_to": 4,
+    "shape":"cube"
+  }
+}

@@ -1,31 +1,29 @@
 {
-    "name":"Nether Kinship",
-    "description":"Inhabitents of the nether are all your allies and will not attack you (expect those bastard Piglens).",
+    "name":"Slimy Neighbors",
+    "description":"You are friendly with Witches and Slimes. Maybe they'll share potion ingredients with you!",
     "type":"origins:action_over_time",
     "entity_action":{
        "type":"origins:and",
        "actions":[
           {
              "type":"origins:execute_command",
-             "command":"team add nether_sub"
+             "command":"team add swamp_sub"
           },
           {
              "type":"origins:execute_command",
-             "command":"team join nether_sub @s"
+             "command":"team join swamp_sub @s"
           },
           {
              "type":"origins:execute_command",
-             "command":"team join nether_sub @e[type=minecraft:witch]"
+             "command":"team join swamp_sub @e[type=minecraft:slime]"
           },
           {
              "type":"origins:execute_command",
-             "command":"team join nether_sub @e[type=minecraft:slime]"
-          }   
+             "command":"team join swamp_sub @e[type=minecraft:witch]"
+          }       
        ]
     },
     "condition": {
-        "type": "origins:dimension",
-        "dimension": "minecraft:the_nether",
     "interval":20
  }
 }
