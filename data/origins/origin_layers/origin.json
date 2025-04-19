@@ -1,6 +1,7 @@
 {
     "replace": false,
     "origins": [
-        "subspecies:storm_caller"
+        "subspecies:storm_caller",
+        "subspecies:bee"
     ]
 }

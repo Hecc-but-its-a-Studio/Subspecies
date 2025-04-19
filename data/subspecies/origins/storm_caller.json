@@ -6,7 +6,7 @@
         "subspecies:storm_damage",
         "subspecies:bolt_blast"
     ],
-    "icon": "supplementaries:wind_vane",
+    "icon": "minecraft:lightning_rod",
     "order": 10,
     "impact": 3,
     "name": "Storm Caller",

@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "subspecies:flap",
+        "origins:elytra",
+        "subspecies:sugar_rush",
+        "subspecies:flower_diet",
+        "subspecies:flower_power",
+        "origins:water_vulnerability",
+        "subspecies:low_health",
+        "subspecies:stinger"
+    ],
+    "icon": "minecraft:honeycomb",
+    "order": 11,
+    "impact": 2,
+    "name": "Bee",
+    "description": "Bee."
+}
