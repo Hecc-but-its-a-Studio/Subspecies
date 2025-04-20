@@ -1,6 +1,5 @@
 {
-	"name": "Sharp Adaptation",
-	"description": "you are able to consume cacti and sticks.",
+    "hidden": true,
 	"type": "origins:multiple",
 	"effects": {
 		"type": "origins:active_self",
@@ -9,12 +8,12 @@
 			"actions": [
 				{
 					"type": "origins:feed",
-					"food": 8,
-					"saturation": 12.8
+					"food": 1,
+					"saturation": 0.6
 				},
 				{
 					"type": "origins:consume",
-					"item": "minecraft:cactus",
+					"item": "minecraft:stick",
 					"amount": 1
 				}
 			]
@@ -28,7 +27,7 @@
 					"item_condition": {
 						"type": "origins:ingredient",
 						"ingredient": {
-							"item": "minecraft:cactus"
+							"item": "minecraft:stick"
 						}
 					}
 				},

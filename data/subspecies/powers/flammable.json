@@ -1,6 +1,6 @@
 {
     "name": "Flammable",
-    "description": "You take more damage from fire-based damage and burning.",
+    "description": "You take 50% more damage from fire-based damage and burning.",
     "type": "origins:modify_damage_taken",
     "modifier": {
       "operation": "multiply_base",

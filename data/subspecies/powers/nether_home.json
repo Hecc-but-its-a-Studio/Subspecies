@@ -1,6 +1,6 @@
 {
     "name":"Nether Kinship",
-    "description":"Inhabitents of the nether are all your allies and will not attack you (expect those bastard Piglens).",
+    "description":"Inhabitants of the nether are your allies and will not attack you (expect those bastard Piglins).",
     "type":"origins:action_over_time",
     "entity_action":{
        "type":"origins:and",
