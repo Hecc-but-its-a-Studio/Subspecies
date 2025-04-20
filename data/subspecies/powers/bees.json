@@ -15,10 +15,9 @@
           },
           {
              "type":"origins:execute_command",
-             "command":"team join flora_sub @e[type=minecraft:bee]"}    
+             "command":"team join flora_sub @e[type=minecraft:bee]"
+          }    
        ]
     },
-    "condition": {
     "interval":20
  }
-}

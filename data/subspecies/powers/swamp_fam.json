@@ -1,6 +1,6 @@
 {
-    "name":"Slimy Neighbors",
-    "description":"You are friendly with Witches and Slimes. Maybe they'll share potion ingredients with you!",
+   "name":"Slimy Neighbors",
+   "description":"You are friendly with Witches and Slimes. Maybe they'll share potion ingredients with you!",
     "type":"origins:action_over_time",
     "entity_action":{
        "type":"origins:and",
@@ -15,15 +15,13 @@
           },
           {
              "type":"origins:execute_command",
-             "command":"team join swamp_sub @e[type=minecraft:slime]"
+             "command":"team join swamp_sub @e[type=minecraft:witch]"
           },
           {
-             "type":"origins:execute_command",
-             "command":"team join swamp_sub @e[type=minecraft:witch]"
-          }       
+            "type":"origins:execute_command",
+            "command":"team join swamp_sub @e[type=minecraft:slime]"
+         }
        ]
     },
-    "condition": {
     "interval":20
- }
 }

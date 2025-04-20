@@ -1,4 +1,6 @@
 {
+     "name":"Burrow",
+    "description":"You're able to burrow into sand blocks. You're unable to burrow into compacted sand blocks.",
     "type": "origins:phasing",
     "block_condition": {
         "type": "origins:block",
@@ -20,6 +22,5 @@
     "condition": {
         "type": "origins:power_active",
         "power": "subspecies:burrow_toggle"
-      },
-      "hidden":true
+      }
 }

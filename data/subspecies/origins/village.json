@@ -1,7 +1,7 @@
 {
     "powers": [
         "subspecies:hero",
-        "subspecies:bouncers",
+        "subspecies:bouncer",
         "subspecies:village_kin",
         "subspecies:village_bane"
     ],
