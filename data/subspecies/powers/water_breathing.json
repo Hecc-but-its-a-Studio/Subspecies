@@ -12,6 +12,6 @@
         "type": "origins:submerged_in",
         "fluid": "minecraft:water"
     },
-    "name": "Well Adapated Lungs",
-    "description": "You can breath underwater"
+    "name": "Well Adapted Lungs",
+    "description": "You can breath underwater."
 }

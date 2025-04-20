@@ -1,6 +1,6 @@
 {
     "name": "Snowborne",
-    "description": "A subspecies born and molded by the frigid landscape.",
+    "description": "A subspecies molded by the frigid landscape.",
     "powers": [
         "subspecies:snow_weight",
         "subspecies:snow_feet",

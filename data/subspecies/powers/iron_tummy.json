@@ -1,0 +1,10 @@
+{
+    "name": "Iron Tummy",
+    "description": "Immune to hunger and all poison effects.",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:wither",
+        "minecraft:hunger",
+        "minecraft:poison"
+    ]
+}
