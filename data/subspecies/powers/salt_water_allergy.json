@@ -1,4 +1,5 @@
 {
+
   "name": "Salt Water Allergy",
   "description": "Being in ocean water makes your skin burn, dealing damage over time.",
   "type": "origins:damage_over_time",
@@ -11,7 +12,6 @@
     "protection_effectiveness": 1.0,
     "condition": {
       "type": "origins:and",
-      "conditions": [
         {
           "type": "origins:fluid_height",
           "fluid": "minecraft:water",

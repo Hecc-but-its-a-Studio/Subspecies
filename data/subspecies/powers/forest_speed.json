@@ -4,8 +4,8 @@
     "condition": {
         "type": "origins:biome",
         "condition":{
-            "type":"origins:category",
-            "category":"forest"
+            "type":"origins:in_tag",
+            "tag":"minecraft:forest"
         },
         "biomes": [
             "forest",
